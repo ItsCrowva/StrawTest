@@ -1,0 +1,317 @@
+# Aesthetic
+id: "aestheticSection"
+display: "Aesthetic"
+
+modules:
+  - id: "UniqueSeaPickleItem"
+    name: "Unique Sea Pickle Item"
+    image: "/images/modules/aesthetic/UniqueSeaPickleItem.png"
+    description: "Changes the texture of the sea pickle item to be unique from its block form."
+    origin: "vanillaextract"
+    author: "BrotherEarth967"
+    conflicting:
+      - VisuallyStackedItems
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+      - 1-12
+  - id: "RealisticCoal"
+    name: "Realistic Coal"
+    image: "/images/modules/aesthetic/RealisticCoal.png"
+    description: "Changes the texture of coal to make it more realistic."
+    origin: "vanillaextract"
+    author: "BrotherEarth967"
+    conflicting:
+      - UniqueProcessedOres
+      - VisuallyStackedItems
+  - id: "BetterPowdersAndDusts"
+    name: "Better Powders and Dusts"
+    image: "/images/modules/aesthetic/BetterPowdersAndDusts.png"
+    description: "Updates the textures for powders and dusts."
+    origin: "vanillaextract"
+    author: "Macarena"
+    conflicting:
+      - PaintBuckets
+      - UniqueProcessedOres
+      - VisuallyStackedItems
+      - DyeBowls
+  - id: "ChiseledFaces"
+    name: "Chiseled Faces"
+    image: "/images/modules/aesthetic/ChiseledFaces.png"
+    description: "Adds mob faces to all chiseled blocks."
+    origin: "vanillaextract"
+    author: "Ender"
+  - id: "CreamierMilk"
+    name: "Creamier Milk"
+    image: "/images/modules/aesthetic/CreamierMilk.png"
+    description: "Makes milk look creamier."
+    origin: "vanillaextract"
+    author: "Chubins"
+  - id: "RockierStoneTools"
+    name: "Rockier Stone Tools"
+    image: "/images/modules/aesthetic/RockierStoneTools.png"
+    description: "Makes stone tools look more rocky."
+    origin: "vanillaextract"
+    author: "Chubins"
+  - id: "WholePumpkinPie"
+    name: "Whole Pumpkin Pie"
+    image: "/images/modules/aesthetic/WholePumpkinPie.png"
+    description: "Adds back the missing slice from pumpkin pie."
+    origin: "vanillaextract"
+    author: "Chubins"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "ChineseLanterns"
+    name: "Chinese Lanterns"
+    image: "/images/modules/aesthetic/ChineseLanterns.png"
+    description: "Textures lanterns in the style of Chinese lanterns."
+    origin: "vanillaextract"
+    author: "astroidbuster"
+    conflicting:
+      - VisuallyStackedItems
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+      - 1-12
+      - 1-13
+  - id: "NetheriteLodestone"
+    name: "Netherite Lodestone"
+    image: "/images/modules/aesthetic/NetheriteLodestone.png"
+    description: "Makes lodestones use the netherite color pallete."
+    origin: "vanillaextract"
+    author: "iloveflareon"
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+      - 1-12
+      - 1-13
+      - 1-14
+      - 1-15
+  - id: "PurpleEnder"
+    name: "Purple Ender"
+    image: "/images/modules/aesthetic/PurpleEnder.png"
+    description: "Makes all Ender elements look more purple to match the colors of The End."
+    origin: "vanillaextract"
+    author: "StormDragon77"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "CleanerShulkers"
+    name: "Cleaner Shulkers"
+    image: "/images/modules/aesthetic/CleanerShulkers.png"
+    description: "Removes the scraggly line from around shulkers."
+    origin: "vanillaextract"
+    author: "7eventy7"
+    notcompatible:
+      - 1-8
+  - id: "PaintBuckets"
+    name: "Paint Buckets"
+    image: "/images/modules/aesthetic/PaintBuckets.png"
+    description: "Changes dyes into paint buckets."
+    origin: "vanillaextract"
+    author: "iloveflareon"
+    conflicting:
+      - BetterPowdersAndDusts
+      - VisuallyStackedItems
+      - DyeBowls
+  - id: "SeaPickleCandles"
+    name: "Sea Pickle Candles"
+    image: "/images/modules/aesthetic/SeaPickleCandles.png"
+    description: "Retextures sea pickles that are not in water to candles. (Candles glow with OptiFine)"
+    origin: "vanillaextract"
+    author: "astroidbuster"
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+      - 1-12
+  - id: "TextlessTNT"
+    name: "Textless TNT"
+    image: "/images/modules/aesthetic/TextlessTNT.png"
+    description: "Removes the text from the side of TNT"
+    origin: "vanillaextract"
+    author: "Tamu"
+  - id: "UniqueProcessedOres"
+    name: "Unique Processed Ores"
+    image: "/images/modules/aesthetic/UniqueProcessedOres.png"
+    description: "Makes the processed form of each ores unique"
+    origin: "vanillaextract"
+    author: "BrotherEarth967"
+    conflicting:
+      - BetterPowdersAndDusts
+      - RealisticCoal
+      - VisuallyStackedItems
+  - id: "BlackBlackstone"
+    name: "Black Blackstone"
+    image: "/images/modules/aesthetic/BlackBlackstone.png"
+    description: "Makes blackstone black."
+    origin: "vanillaextract"
+    author: "astroidbuster"
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+      - 1-12
+      - 1-13
+      - 1-14
+      - 1-15
+  - id: "RoundLogs"
+    name: "Round Logs"
+    image: "/images/modules/aesthetic/RoundLogs.png"
+    description: "Makes the inside of logs round."
+    origin: "vanillaextract"
+    author: "Chromus"
+  - id: "BetterPressurePlates"
+    name: "Better Pressure Plates"
+    image: "/images/modules/aesthetic/BetterPressurePlates.png"
+    description: "Improves the textures and models of pressure plates."
+    origin: "vanillaextract"
+    author: "BrotherEarth967"
+  - id: "ItemlessItemFrame"
+    name: "Itemless Item Frame"
+    image: "/images/modules/aesthetic/ItemlessItemFrame.png"
+    description: "Removes the sword item from inside the empty item frame."
+    origin: "vanillaextract"
+    author: "Chubins"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "SmootherBedrock"
+    name: "Smoother Bedrock"
+    image: "/images/modules/aesthetic/SmootherBedrock.png"
+    description: "Makes bedrock smoother and more visually pleasing."
+    origin: "vanillaextract"
+    author: "Chubins"
+  - id: "DyeBowls"
+    name: "Dye Bowls"
+    image: "/images/modules/aesthetic/DyeBowls.png"
+    description: "Changes dyes into bowls with dye."
+    origin: "vanillaextract"
+    author: "Blackbone"
+    conflicting:
+      - BetterPowdersAndDusts
+      - VisuallyStackedItems
+      - PaintBuckets
+  - id: "NetherPortalEnderChest"
+    name: "Nether Portal Ender Chest"
+    image: "/images/modules/aesthetic/NetherPortalEnderChest.png"
+    description: "Adds an animated nether portal to the inside of ender chests."
+    origin: "vanillaextract"
+    author: "astroidbuster"
+  - id: "UniqueMelonPumpkinItems"
+    name: "Unique Melon and Pumpkin Items"
+    image: "/images/modules/aesthetic/UniqueMelonPumpkinItems.png"
+    description: "Retextures melon and pumpkin items to be unique from their block forms."
+    origin: "vanillaextract"
+    author: "Macarena"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "BetterEggColor"
+    name: "Better Egg Color"
+    image: "/images/modules/aesthetic/BetterEggColor.png"
+    description: "Gives eggs a darker, more realistic color."
+    origin: "vanillaextract"
+    author: "StormDragon77"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "SeamlessGlass"
+    name: "Seamless Glass"
+    image: "/images/modules/aesthetic/SeamlessGlass.png"
+    description: "Removes the seam from glass."
+    origin: "vanillaextract"
+    author: "Technodono"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "LapisEnchantingTable"
+    name: "Lapis Enchanting Table"
+    image: "/images/modules/aesthetic/LapisEnchantingTable.png"
+    description: "Makes enchanting tables blue, like the lapis lazuli that is used to power them."
+    origin: "vanillaextract"
+    author: "Chubins"
+  - id: "ConcreteBricks"
+    name: "Concrete Bricks"
+    image: "/images/modules/aesthetic/ConcreteBricks.png"
+    description: "Turns concrete into concrete bricks."
+    origin: "vanillaextract"
+    author: "Blackbone"
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+  - id: "GlassDoors"
+    name: "Glass Doors and Trapdoors"
+    image: "/images/modules/aesthetic/GlassDoors.png"
+    description: "Adds glass windows to doors and trapdoors."
+    origin: "vanillaextract"
+    author: "Blackbone"
+    conflicting:
+      - VisuallyStackedItems
+      - ConsistentDoorItems
+  - id: "BlackerNetherite"
+    name: "Blacker Netherite"
+    image: "/images/modules/aesthetic/BlackerNetherite.png"
+    description: "Makes netherite more black."
+    origin: "vanillaextract"
+    author: "Blackbone"
+    conflicting:
+      - VisuallyStackedItems
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+      - 1-12
+      - 1-13
+      - 1-14
+      - 1-15
+  - id: "HexagonalPrismarineBricks"
+    name: "Hexagonal Prismarine Bricks"
+    image: "/images/modules/aesthetic/HexagonalPrismarineBricks.png"
+    description: "Makes prismarine bricks hexagonal."
+    origin: "vanillaextract"
+    author: "Pythagoras_314"
+    notcompatible:
+      - 1-8
+      - 1-9
+      - 1-10
+      - 1-11
+      - 1-12
+    conflicting:
+      - SmallUniformBricks
+  - id: "SmallUniformBricks"
+    name: "Small Uniform Bricks"
+    image: "/images/modules/aesthetic/SmallUniformBricks.png"
+    description: "Makes all types of bricks uniform."
+    origin: "vanillaextract"
+    author: "Pythagoras_314"
+    conflicting:
+      - HexagonalPrismarineBricks
+  - id: "BetterNetherWart"
+    name: "Better Nether Wart"
+    image: "/images/modules/aesthetic/BetterNetherWart.png"
+    description: "Makes the nether wart item look more like the block."
+    origin: "vanillaextract"
+    author: "StormDragon77"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "BrownLeather"
+    name: "Brown Leather"
+    image: "/images/modules/aesthetic/BrownLeather.png"
+    description: "Makes leather brown."
+    origin: "vanillaextract"
+    author: "StormDragon77"
+    conflicting:
+      - VisuallyStackedItems
+  - id: "WoodToBark"
+    name: "Wood To Bark"
+    image: "/images/modules/aesthetic/WoodToBark.png"
+    description: "Renames wood to bark."
+    origin: "vanillaextract"
+    author: "Chubins"

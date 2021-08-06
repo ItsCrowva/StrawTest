@@ -1,0 +1,10 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Vanilla Extract"
+publishDir = "public"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = true
