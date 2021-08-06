@@ -1,0 +1,6 @@
+*.zip
+*.mcpack
+*.psd
+*.ds_store
+**/.vscode
+**/.zips
