@@ -1,4 +1,4 @@
-console.log(`
+5console.log(`
 $$$$$$$\\  $$\\  $$$$$$\\
 $$  __$$\\ \\__|$$  __$$\\
 $$ |  $$ |$$\\ $$ /  \\__| $$$$$$\\  $$\\   $$\\  $$$$$$$\\  $$$$$$\\   $$$$$$\\
@@ -131,7 +131,7 @@ jQuery(function($) {
                 .then(function callback(blob) {
 
                         // see FileSaver.js
-
+                        console.log("Should Start Giving Out")
                         function makeid(length) {
                             var result = '';
                             var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
