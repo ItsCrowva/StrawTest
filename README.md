@@ -1,3 +1,13 @@
+
+
+
+
+THIS IS BUILT OFF OF VANILLA TWEAKS BEDROCK AS A GUIDE.
+https://github.com/PiSaucer/VanillaTweaksBedrock is the original repository.
+
+
+
+
 # VanillaTweaksBedrock
 
 an unofficial port of Minecraft Vanilla Tweaks for Bedrock
