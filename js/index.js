@@ -10,6 +10,12 @@ $$ |      $$ |\\$$$$$$  |\\$$$$$$$ |\\$$$$$$  |\\$$$$$$$\\ \\$$$$$$$\\ $$ |
                                                                     ⠀`);
 console.log("Interested in this website? Check the github for the source code");
 
+
+var file = new File(["Hello, world!"], "hello world.txt", {type: "text/plain;charset=utf-8"});
+FileSaver.saveAs(file);
+
+alert("Hello\nHow are you?");
+
 function uuidv4() {
     return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c =>
         (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
@@ -38,6 +44,10 @@ jQuery(function($) {
                 }
             });
         });
+    }
+    
+    function testToHi() {
+        alert("Hello\nHow are you?");
     }
 
     $(document).ready(function() {
